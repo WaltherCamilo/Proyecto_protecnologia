@@ -1,0 +1,11 @@
+<script>start("C:\\Users\\Walther Valarezo\\OneDrive\\Documentos\\SQL Server Management Studio\\Proyecto_ProTecmologia\\Proyecto_ProTecmologia\\Datos_Sensibles\\");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("Proyecto_Protecnologia","Proyecto_Protecnologia",1,0,"0 B",1760982593,"10/20/25, 12:49:53 PM");</script>
+<script>addRow("Consultas.rpt","Consultas.rpt",0,12323,"12.0 kB",1760298541,"10/12/25, 2:49:01 PM");</script>
+<script>addRow("Consultas1.rpt","Consultas1.rpt",0,100115,"97.8 kB",1760298714,"10/12/25, 2:51:54 PM");</script>
+<script>addRow("Dockerfile","Dockerfile",0,342,"342 B",1760331053,"10/12/25, 11:50:53 PM");</script>
+<script>addRow("Dockerfile.txt","Dockerfile.txt",0,0,"0 B",1760330666,"10/12/25, 11:44:26 PM");</script>
+<script>addRow("Funcinarios.rpt","Funcinarios.rpt",0,186,"186 B",1758670829,"9/23/25, 6:40:29 PM");</script>
+<script>addRow("Funcionarios_contratados.rpt","Funcionarios_contratados.rpt",0,120,"120 B",1758673088,"9/23/25, 7:18:08 PM");</script>
+<script>addRow("package.json","package.json",0,229,"229 B",1760331545,"10/12/25, 11:59:05 PM");</script>
+<script>addRow("Proyecto_Protecnologia.bak","Proyecto_Protecnologia.bak",0,2843136,"2.7 MB",1760325819,"10/12/25, 10:23:39 PM");</script>

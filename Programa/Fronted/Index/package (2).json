@@ -1,0 +1,23 @@
+{
+  "name": "proyecto_protecnologia",
+  "version": "1.0.0",
+  "description": "Bienvenido a mi proyecto de **desarrollo FullStack**, creado como parte de la asignatura de tecnología para demostrar mis habilidades en programación y desarrollo web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaltherCamilo/Proyecto_protecnologia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WaltherCamilo/Proyecto_protecnologia/issues"
+  },
+  "homepage": "https://github.com/WaltherCamilo/Proyecto_protecnologia#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

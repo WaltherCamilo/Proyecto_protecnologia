@@ -1,0 +1,32 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: mi-node-app-container
+    ports:
+      - "5000:3000"
+    environment:
+      - NODE_ENV=development
+      - DB_HOST=db
+      - DB_USER=sa
+      - DB_PASS=TuPassword123!
+      - DB_NAME=Proyecto_ProTecmologia
+    depends_on:
+      - db
+    volumes:
+      - .:/app
+      - /app/node_modules
+    restart: unless-stopped
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver-container
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=TuPassword123!
+    volumes:
+      - ./Datos_Sensibles:/var/opt/mssql/backup
+    restart: unless-stopped
